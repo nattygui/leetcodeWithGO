@@ -1,4 +1,4 @@
-package _001twosum
+package twosum
 
 func twoSum(nums []int, target int) []int {
 	out := make([]int, 0)
