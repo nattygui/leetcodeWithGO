@@ -1,6 +1,8 @@
 package uniquemorserepresentations
 
-import "testing"
+import (
+	"testing"
+)
 
 func Test_uniqueMorseRepresentations(t *testing.T) {
 	type args struct {
