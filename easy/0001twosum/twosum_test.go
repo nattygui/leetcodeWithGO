@@ -1,8 +1,9 @@
-package _001twosum
+package twosum
 
 import (
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 type para struct {
