@@ -7,7 +7,7 @@ func canJump(nums []int) bool {
 		if i > maxRight {
 			return false
 		}
-		maxRight := max(maxRight, i+nums[i])
+		maxRight = max(maxRight, i+nums[i])
 		if maxRight >= length-1 {
 			return true
 		}

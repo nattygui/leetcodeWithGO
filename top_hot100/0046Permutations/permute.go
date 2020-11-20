@@ -16,6 +16,7 @@ func walk(nums []int, oneResult []int, result *[][]int, length int) {
 		nextNums = append(nextNums, nums[:i]...)
 		nextNums = append(nextNums, nums[i+1:]...)
 		if len(tempResult) == length {
+			// 添加一个结果的时候，由于slice 的特性，需要重新创建一个切片
 			temp := make([]int, length)
 			copy(temp, tempResult)
 			*result = append(*result, temp)
