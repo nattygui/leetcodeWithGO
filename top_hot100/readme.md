@@ -37,3 +37,4 @@
 | 贪心算法+排序 | [0031. 下一个排列](./0031NextPermutation/readme.md) | 中等 |
 | 二分查找 | [0033. 搜索旋转排序数组](./0033SearchinRotatedSortedArray/readme.md) | 中等 |
 | 二分查找 | [0034. 在排序数组中查找元素的第一个和最后一个位置](./0034FindFirstandLastPositionofElementinSortedArray/readme.md) | 中等 |
+| 贪心算法 | [0055. 跳跃游戏](./0055JumpGame) | 中等 |
